@@ -1,0 +1,81 @@
+.mainNavContainer{
+    background-color:rgb(51, 53, 69);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.flexDivision{
+    display: flex;
+    justify-content:space-around;
+    gap: 20px;
+}
+.flexDivision select{
+    margin-top: 12px;
+}
+.logoDivision{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.searchDivision{
+    padding-top: 10px;
+} 
+.searchDivision  input{
+    width: 200%;
+}
+.sign{
+    background:  rgb(248, 68, 100);
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    margin-top: 9px;
+    border: 1px solid rgb(248, 68, 100);
+  
+}
+
+.opt{
+    border: none;
+    background: none;
+    color: aliceblue;
+    
+}
+.opt option{
+    color: aliceblue;
+}
+
+.toogling{
+    color: white;
+    margin-top: 12px;
+}
+.dataOneChild ul{
+    list-style-type: none;
+}
+.dataTwoChild ul{
+    list-style-type: none;
+}
+.dataTwoChild ul li{
+    color: white;
+}
+.dataOneChild ul li{
+    color: white;
+}
+.dataOne{
+    display: flex;
+}
+.dataTwo{
+    display: flex;
+}
+.dataonetwo{
+    background: rgb(34, 37, 57);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-top: 10px;
+}
